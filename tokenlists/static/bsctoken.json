@@ -1,0 +1,26 @@
+{
+  "name": "bsctoken",
+  "timestamp": "2021-12-10T11:44:02.739Z",
+  "version": {
+    "major": 2,
+    "minor": 16,
+    "patch": 50
+  },
+  "tokens": [
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "address": "0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "BinaryX",
+      "symbol": "BNX"
+    }
+  ]
+}
