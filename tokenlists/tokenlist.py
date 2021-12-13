@@ -14,8 +14,14 @@ def make_app():
         (r'/static/(.*)', tornado.web.StaticFileHandler, {'path': 'static/'})
     ])
 
+
 if __name__ == "__main__":
     app = make_app()
+    http_server = tornado.httpserver.HTTPServer(app, ssl_options={
+        "certfile": "/root/ca/server.csr",
+        "keyfile": "/root/ca/server.key",
+    })
+
     app.listen(21234)
 
     tornado.autoreload.start()
