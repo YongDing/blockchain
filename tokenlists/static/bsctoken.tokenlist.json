@@ -1,0 +1,20 @@
+{
+  "name": "bsctoken",
+  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+  "timestamp": "2021-12-10T11:44:02.739Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "address": "0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "BinaryX",
+      "symbol": "BNX",
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    }
+  ]
+}
